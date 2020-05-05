@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+</head>
+
+<body>
+	<header id="body-header" class="mleft3vw mright3vw">
+		<div id="top-row-container" class="flex-rw spc-even">
+			<div id="name-icon-container">
+				<img class="app-icon" src="walkman.svg">
+				<div class="flex-col spc-btw inlBlck">
+					<div class="ff fw-600">SkyBeat</div>
+					<div class="ff fw-600">Studio</div>
+				</div>
+
+			</div>
+
+			<div>
+				<span id="fav-spn" class="ff fw-600 mleft3vw">Favourites</span>
+			</div>
+
+
+			<div id="search-bar-container" class="flex-rw spc-btw mleft3vw">
+				<input id="search-bar-id" type="text" placeholder="Search">
+			</div>
+
+			<div>
+				<a href="#body-header"><img class="icn4vh icn-black mleft3vw" src="Images/bell.svg"></a>
+
+			</div>
+
+			<div>
+				<a href="#body-header"><img class="profile-img mleft3vw" src="Aman1.jpg"></a>
+			</div>
+
+		</div>
+		<!-- logo name favourites searchbar(including search icon and voice icon) notification icon with red dot profileIcon   -->
+	</header>
+
+	<main id="main-class">
+		<div id="columns-container" class="mleft3vw mright3vw flex-rw start">
+			<!-- col1 starts -->
+			<div id="col1" class="mleft3vw flex-col spc-btw">
+				<!-- Carousel Section starts-->
+				<div class="recent-songs size-adjust">
+					<div class="song zoom ">
+						<span><img src="latest english/closer.png" alt=""></span>
+						<div id="styleing" >Closer by THE CHAINSMOKERS</div>
+					</div>
+					<div class="song zoom">
+						<span><img src="latest realeses/taki taki.jpg" alt=""></span>
+						<div id="styleing">Taki Taki by DJ SNAKE FT.SELENA</div>
+					</div>
+					<div class="song zoom">
+						<span><img src="latest realeses/shape of you.jpg" alt=""></span>
+						<div id="styleing">Shape of You by ED SHEERAN</div>
+					</div>
+
+				</div>
+				<!-- Carousel Ends-->
+
+				<!-- Latest Releases -->
+				<section id="latest-release-section">
+					<div class="ff fw-600 mbot3vh">Latest Releases</div>
+					<div id="flex-area-for-singles" class="flex-rw wrap ff fw-600">
+						<div class="latest-release-single flex-rw start mbot3vh">
+							<div class="latest-release-album-img-div">
+								<a href="#music-player"><img class="latest-release-album-img" src="latest realeses/hardy sandu.jpg"><div id="play_btn"><img id="style_img" src="Images/play.svg"></div></a>
+							</div>
+
+							<div class="single-release-info">
+								<div class="single-title">Jee Karr Daa by HARDY SANDHU</div>
+								<div class="single-release-date">March 5 2020</div>
+							</div>
+							<div class="track-duration">
+								<div class="dropdown">
+									<img class="single-options " src="Images/open-menu.svg">
+									<div class="dropdown-content">
+										<div class="flex-rw start">
+
+											<img class= "dropdown-icon" src="Images/play.svg">
+											<div>Play Now</div>
+										</div>
+										<hr>
+										<div class="flex-rw start">
+											<img class= "dropdown-icon" src="Images/plus.svg">
+											<div>Add To Queue</div>
+										</div>
+										<hr>
+										<div class="flex-rw start">
+											<img class= "dropdown-icon" src="Images/star.svg">
+											<div>Add To Favorites</div>
+										</div>
+										<hr>
+										<div class="flex-rw start">
+											<img class= "dropdown-icon" src="Images/info.svg">
+											<div>Get Info</div>
+										</div>
+									</div>
+								</div>
+								<div>3:28</div>
+							</div>
+						</div>
+
+						<div class="latest-release-single flex-rw start mbot3vh">
+							<div class="latest-release-album-img-div">
+								<img class="latest-release-album-img"
+								src="latest realeses/illegal weapon.jpg">
+							</div>
+							<div>
+								<div class="single-title">Illegal Weapon 2.0 by JASMINE SANDLES,GARRY SANDHU</div>
+								<div class="single-release-date">January 5 2020</div>
+							</div>
+							<div class="track-duration">
+								<div class="dropdown">
+									<img class="single-options " src="Images/open-menu.svg">
+									<div class="dropdown-content">
+										<div class="flex-rw start">
+
+											<img class= "dropdown-icon" src="Images/play.svg">
+											<div>Play Now</div>
+										</div>
+										<hr>
+										<div class="flex-rw start">
+											<img class= "dropdown-icon" src="Images/plus.svg">
+											<div>Add To Queue</div>
+										</div>
+										<hr>
+										<div class="flex-rw start">
+											<img class= "dropdown-icon" src="Images/star.svg">
+											<div>Add To Favorites</div>
+										</div>
+										<hr>
+										<div class="flex-rw start">
+											<img class= "dropdown-icon" src="Images/info.svg">
+											<div>Get Info</div>
+										</div>
+									</div>
+								</div>
+								<div>2:27</div>
+							</div>
+						</div>
+
+						<div class="latest-release-single flex-rw start mbot3vh">
+							<div class="latest-release-album-img-div">
+								<img class="latest-release-album-img"
+								src="latest realeses/taki taki.jpg">
+							</div>
+							<div>
+								<div class="single-title">Taki Taki by DJ SNAKE FT.SELENA GOMEZ,OZUNA,CARDI B</div>
+								<div class="single-release-date">October 10 2018</div>
+							</div>
+							<div class="single-options-container">
+
+							</div>
+							<div class="track-duration">
+								<div class="dropdown">
+									<img class="single-options " src="Images/open-menu.svg">
+									<div class="dropdown-content">
+										<div class="flex-rw start">
+
+											<img class= "dropdown-icon" src="Images/play.svg">
+											<div>Play Now</div>
+										</div>
+										<hr>
+										<div class="flex-rw start">
+											<img class= "dropdown-icon" src="Images/plus.svg">
+											<div>Add To Queue</div>
+										</div>
+										<hr>
+										<div class="flex-rw start">
+											<img class= "dropdown-icon" src="Images/star.svg">
+											<div>Add To Favorites</div>
+										</div>
+										<hr>
+										<div class="flex-rw start">
+											<img class= "dropdown-icon" src="Images/info.svg">
+											<div>Get Info</div>
+										</div>
+									</div>
+								</div>
+								<div>3:51</div>
+							</div>
+
+						</div>
+
+						<div class="latest-release-single flex-rw start mbot3vh">
+							<div class="latest-release-album-img-div">
+								<img class="latest-release-album-img" 
+								src="latest realeses/shape of you.jpg">
+								
+							</div>
+							<div>
+								<div class="single-title">Shape of You by ED SHEERAN</div>
+								<div class="single-release-date">January 30 2017</div>
+							</div>
+							<div class="track-duration">
+								<div class="dropdown">
+									<img class="single-options " src="Images/open-menu.svg">
+									<div class="dropdown-content">
+										<div class="flex-rw start">
+
+											<img class= "dropdown-icon" src="Images/play.svg">
+											<div>Play Now</div>
+										</div>
+										<hr>
+										<div class="flex-rw start">
+											<img class= "dropdown-icon" src="Images/plus.svg">
+											<div>Add To Queue</div>
+										</div>
+										<hr>
+										<div class="flex-rw start">
+											<img class= "dropdown-icon" src="Images/star.svg">
+											<div>Add To Favorites</div>
+										</div>
+										<hr>
+										<div class="flex-rw start">
+											<img class= "dropdown-icon" src="Images/info.svg">
+											<div>Get Info</div>
+										</div>
+									</div>
+								</div>
+								<div>4:23</div>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+				<!-- Latest Releases Ends-->
+
+				<!-- Popular Artists starts -->
+				<section style="margin-top: 1vh;" id="popular-artists-section" class="ff fw-600">
+					<div class="ff fw-600 mbot3vh">Popular Artists</div>
+					<div id="popular-artists-container" class="flex-rw spc-btw">
+						<div class="popular-artist-container flex-col start flex-bas-0">
+							<div>
+								<img class="popular-artist-image brad5" src="popular artists/arjit singh.jpg">
+							</div>
+							<div class="popular-artist-name txt-center">Arjit Singh</div>
+						</div>
+
+						<div class="flex-col start flex-bas-0">
+							<div>
+								<img class="popular-artist-image brad5"
+								src="popular artists/taylor swift.jpg">
+							</div>
+							<div class="popular-artist-name txt-center">Taylor Swift</div>
+						</div>
+
+						<div class="flex-col start flex-bas-0">
+							<div>
+								<a href="F:\HTML PROJECT\Aman\SinglePlaylistScreen.html"><img class="popular-artist-image brad5" src="popular artists/zayn_wiki.jpg"></a> <!-- Click On Zyn Malik Image to redirect on the next html image-->
+							</div>
+
+							<div class="popular-artist-name txt-center">Zayn Malik</div>
+							<div id="heart_btn"><a href="F:\HTML PROJECT\Aman\SinglePlaylistScreen.html"><img id="style_img1" src="Images/heart.png"></a></div>
+						</div>
+
+						<div class="flex-col start flex-bas-0">
+							<div>
+								<img class="popular-artist-image brad5" src="popular artists/Atif Aslam.jpg">
+							</div>
+							<div class="popular-artist-name txt-center">Atif Aslam</div>
+						</div>
+
+						<div class="flex-col start flex-bas-0">
+							<div>
+								<img class="popular-artist-image brad5" src="popular artists/eminem.jpg">
+							</div>
+							<div class="popular-artist-name txt-center">EMINEM</div>
+						</div>
+
+						<div class="flex-col start flex-bas-0">
+							<div>
+								<img class="popular-artist-image brad5"
+								src="popular artists/Ed Sheeran.jpg">
+							</div>
+							<div class="popular-artist-name txt-center">ED Sheeran</div>
+						</div>
+					</div>
+				</section>
+				<!-- Popular artists ends -->
+
+				<!-- stations start -->
+				<section style="margin-top: 7vh;" id="stations-section" class="ff fw-600">
+					<div class="mbot3vh">Radio Stations</div>
+					<div id="stations-container" class="flex-rw spc-btw">
+						<div class="station-container flex-col start flex-bas-0">
+							<div>
+								<img class="radio-image brdrad1" src="radio stations/pop2.jpg">
+							</div>
+							<div class="radio-station-genre txt-center popular-artist-name">Pop</div>
+						</div>
+
+						<div class="station-container flex-col start flex-bas-0">
+							<div>
+								<img class="radio-image brdrad1 opac" src="radio stations/Love.jpg">
+							</div>
+							<div class="radio-station-genre txt-center popular-artist-name">Love</div>
+						</div>
+
+						<div class="station-container flex-col start flex-bas-0">
+							<div>
+								<img class="radio-image brdrad1 opac" src="radio stations/retro.png">
+							</div>
+							<div class="radio-station-genre txt-center popular-artist-name">Retro</div>
+						</div>
+
+						<div class="station-container flex-col start flex-bas-0">
+							<div>
+								<img class="radio-image brdrad1 opac" src="radio stations/Feelin Good.jpg">
+							</div>
+							<div class="radio-station-genre txt-center popular-artist-name">Happy</div>
+						</div>
+
+						<div class="station-container flex-col start flex-bas-0">
+							<div>
+								<img class="radio-image brdrad1 opac" src="radio stations/Teen Party.jpg">
+							</div>
+							<div class="radio-station-genre txt-center popular-artist-name">Teen Party</div>
+						</div>
+
+						<div class="station-container flex-col start flex-bas-0">
+							<div>
+								<img class="radio-image brdrad1 opac" src="radio stations/rock.jpg">
+							</div>
+							<div class="radio-station-genre txt-center popular-artist-name">Rock</div>
+						</div>
+						<div class="station-container flex-col start flex-bas-0">
+							<div>
+								<img class="radio-image brdrad1 opac" src="mood/workout.jpg">
+							</div>
+							<div class="radio-station-genre txt-center popular-artist-name">Workout</div>
+						</div>
+					</div>
+				</section>
+				<!-- stations end -->
+
+				<!-- occasion music starts -->
+				<section style="margin-top: 5vh;" id="occasion-music" class="ff fw-600">
+					<div class="mbot3vh">Mood</div>
+					<div class="occasion-music-container flex-rw spc-btw">
+						<div class="occasion-music-box flex-col start">
+							<div>
+								<img class="occasion-image brdrad1 opac" src="mood/punjabi.jpg">
+							</div>
+							<div class="radio-station-genre txt-center">Punjabi</div>
+						</div>
+
+						<div class="occasion-music-box flex-col start">
+							<div>
+								<img class="occasion-image brdrad1 opac" src="mood/edm.jpg">
+							</div>
+							<div class="radio-station-genre txt-center">EDM</div>
+						</div>
+
+						<div class="occasion-music-box flex-col start">
+							<div>
+								<img class="occasion-image brdrad1 opac" src="mood/happy beat.jpg">
+							</div>
+							<div class="radio-station-genre txt-center">Happy Beat</div>
+						</div>
+
+						<div class="occasion-music-box flex-col start">
+							<div>
+								<img class="occasion-image brdrad1 opac" src="mood/romantic1.jpg">
+							</div>
+							<div class="radio-station-genre txt-center">Romantic</div>
+						</div>
+
+					</div>
+				</section>
+				<!-- occasion music ends -->
+
+				<!-- latest english starts -->
+				<section style="margin-top: 3vh;" id="latest-english-section" class="ff fw-600">
+					<div class="mbot3vh">Latest English</div>
+					<div class="flex-rw spc-btw">
+
+						<div class="latest-english flex-col start flex-bas-0">
+							<div>
+								<img class="latest-release-album-img" src="latest english/sunflower.jpg">
+							</div>
+							<div class="single-title mar0">
+								Sunflower by POST MALONE,SWAE LEE
+							</div>
+							<div class="single-release-date mar0">Oct 18,2018</div>
+						</div>
+
+						<div class="latest-english flex-col start flex-bas-0">
+							<div>
+								<img class="latest-release-album-img"
+								src="latest english/closer.png">
+							</div>
+							<div class="single-title mar0">
+								<span>Closer by THE CHAINSMOKERS</span>
+							</div>
+							<div class="single-release-date mar0">July 29,2016</div>
+						</div>
+
+						<div class="latest-english flex-col start flex-bas-0">
+							<div>
+								<img class="latest-release-album-img"
+								src="latest english/happier.jpg">
+							</div>
+							<div class="single-title mar0">
+								<span>Happier by MARSHMELLO FT.BASTILLE</span>
+							</div>
+							<div class="single-release-date mar0">Sept 24 2018</div>
+						</div>
+
+						<div class="latest-english flex-col start flex-bas-0">
+							<div>
+								<img class="latest-release-album-img" src="latest english/dance monkey.jpg">
+							</div>
+							<div class="single-title mar0">
+								<span>Dance Monkey by TONES & I</span>
+							</div>
+							<div class="single-release-date mar0">Jun 25,2019</div>
+						</div>
+
+						<div class="latest-english flex-col start flex-bas-0">
+							<div>
+								<img class="latest-release-album-img" src="latest english/in the end linkin park.jpg">
+							</div>
+							<div class="single-title mar0">
+								<span>In the End by LINKIN PARK</span>
+							</div>
+							<div class="single-release-date mar0">Oct 27,2009</div>
+						</div>
+
+					</div>
+				</section>
+				<!-- latest english ends -->
+
+				<!-- latest Hindi starts -->
+				<section style="margin-top: 3vh;" id="latest-hindi-section" class="ff fw-600">
+					<div class="mbot3vh">Latest Hindi</div>
+					<div class="flex-rw spc-btw">
+
+						<div class="latest-hindi flex-col start flex-bas-0">
+							<div>
+								<img class="latest-release-album-img" src="latest hindi/apna time ayega.jpg">
+							</div>
+							<div class="single-title mar0">
+								Apna Time Aayega
+							</div>
+							<div class="single-release-date mar0">Jan 14,2019</div>
+						</div>
+
+						<div class="latest-hindi flex-col start flex-bas-0">
+							<div>
+								<img class="latest-release-album-img" src="latest hindi/ikk kudi.jpg">
+							</div>
+							<div class="single-title mar0">
+								<span>Ikk Kudi</span>
+							</div>
+							<div class="single-release-date mar0">Jul 14,2016</div>
+						</div>
+
+						<div class="latest-hindi flex-col start flex-bas-0">
+							<div>
+								<img class="latest-release-album-img" src="latest hindi/tera yaar hoon mai.jpg">
+							</div>
+							<div class="single-title mar0">
+								<span>Tera Yaar Hoon Main</span>
+							</div>
+							<div class="single-release-date mar0">Mar 7,2018</div>
+						</div>
+
+						<div class="latest-hindi flex-col start flex-bas-0">
+							<div>
+								<img class="latest-release-album-img" src="latest hindi/malang.jpg">
+							</div>
+							<div class="single-title mar0">
+								<span>Malang</span>
+							</div>
+							<div class="single-release-date mar0">Jan 16,2020</div>
+						</div>
+
+						<div class="latest-hindi flex-col start flex-bas-0">
+							<div>
+								<img class="latest-release-album-img" src="latest hindi/kabir singh.jpg">
+							</div>
+							<div class="single-title mar0">
+								<span>Bekhayali</span>
+							</div>
+							<div class="single-release-date mar0">Jul 1,2019</div>
+						</div>
+
+					</div>
+				</section>
+				<!-- latest Hindi ends -->
+			</div>
+			<!-- col1 ends -->
+
+			<!-- col2 starts -->
+			<div id="col2" class="mleft3vw">
+				<section style="margin-top: 2vh" id="queue-container" class="ff fw-600">
+					<div class="queue-container flex-col start">
+						<div class="queue-heading flex-rw spc-btw">
+							<div class="queue-title">Queue</div>
+							<div>
+								<div class="queue-option-title inlBlck">Queue</div>
+								<div class="dropdown inlBlck">
+									<img class="options-icon mleft3vw" src="Images/download.svg">
+									<div class="dropdown-content queue-drop-font">
+										<div>Playlists</div>
+										<hr>
+										<div>Favorite Songs</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="queue-item flex-rw start">
+							<div class="s-no">01</div>
+							<img class="queue-song-image " src="carousel/tum na ho.jpg">
+							<div class="queue-song-info flex-col start">
+								<div class="song-title">Tum Na Ho</div>
+								<div class="singer-name">Arjun Kanungo, Prakriti Kakar & M Ajay Vaas</div>
+							</div>
+							<img class="queue-like-icon" src="Images/heart.svg">
+						</div>
+
+						<div class="queue-item flex-rw start">
+							<div class="s-no">02</div>
+							<img class="queue-song-image " src="latest english/maroon5.jpg">
+							<div class="queue-song-info flex-col start">
+								<div class="song-title">Girls Like You</div>
+								<div class="singer-name">Maroon5</div>
+							</div>
+							<img class="queue-like-icon" src="Images/heart.svg">
+						</div>
+
+						<div class="queue-item flex-rw start">
+							<div class="s-no">03</div>
+							<img class="queue-song-image " src="latest english/starboy.jpg">
+							<div class="queue-song-info flex-col start">
+								<div class="song-title">Starboy</div>
+								<div class="singer-name">The Weekend ft.Daft Punk</div>
+							</div>
+							<img class="queue-like-icon" src="Images/heart.svg">
+						</div>
+
+						<div class="queue-item flex-rw start">
+							<div class="s-no">04</div>
+							<img class="queue-song-image " src="latest english/friends.jpg">
+							<div class="queue-song-info flex-col start">
+								<div class="song-title">F.R.I.E.N.D.S</div>
+								<div class="singer-name">Marshmello & Anne-Marie</div>
+							</div>
+							<img class="queue-like-icon" src="Images/heart.svg">
+						</div>
+
+						<div class="queue-item flex-rw start">
+							<div class="s-no">05</div>
+							<img class="queue-song-image " src="latest english/coldplay.jpg">
+							<div class="queue-song-info flex-col start">
+								<div class="song-title">Hymm for The Weekend</div>
+								<div class="singer-name">Coldplay</div>
+							</div>
+							<img class="queue-like-icon" src="Images/heart.svg">
+						</div>
+
+						<div class="queue-item flex-rw start">
+							<div class="s-no">06</div>
+							<img class="queue-song-image " src="latest hindi/bang bang.jpg">
+							<div class="queue-song-info flex-col start">
+								<div class="song-title">Bang Bang</div>
+								<div class="singer-name">Vishal Shekhar & Benny Dayal</div>
+							</div>
+							<img class="queue-like-icon" src="Images/heart.svg">
+						</div>
+
+						<div class="queue-item flex-rw start">
+							<div class="s-no">07</div>
+							<img class="queue-song-image " src="latest hindi/rang-de-basanti.jpg">
+							<div class="queue-song-info flex-col start">
+								<div class="song-title">Rang de Basanti</div>
+								<div class="singer-name">AR Rahman</div>
+							</div>
+							<img class="queue-like-icon" src="Images/heart.svg">
+						</div>
+
+						<div class="queue-item flex-rw start">
+							<div class="s-no">08</div>
+							<img class="queue-song-image " src="latest hindi/malang.jpg">
+							<div class="queue-song-info flex-col start">
+								<div class="song-title">Malang</div>
+								<div class="singer-name">Ved Sharma</div>
+							</div>
+							<img class="queue-like-icon" src="Images/heart.svg">
+						</div>
+
+						<div class="queue-item flex-rw start">
+							<div class="s-no">09</div>
+							<img class="queue-song-image " src="latest realeses/waka waka.jpg">
+							<div class="queue-song-info flex-col start">
+								<div class="song-title">Waka Waka</div>
+								<div class="singer-name">Shakira</div>
+							</div>
+							<img class="queue-like-icon" src="Images/heart.svg">
+						</div>
+
+						<div class="queue-item flex-rw start">
+							<div class="s-no">10</div>
+							<img class="queue-song-image " src="latest realeses/illegal weapon.jpg">
+							<div class="queue-song-info flex-col start">
+								<div class="song-title">Illegal Weapon 2.0</div>
+								<div class="singer-name">Jasmine Sandles & Garry Sandhu</div>
+							</div>
+							<img class="queue-like-icon" src="Images/heart.svg">
+						</div>
+
+
+					</div>
+
+				</section>
+			</div>
+			<!-- col 2 ends -->
+		</div>
+
+
+		<!-- Music Player -->
+
+		<div id="music-player" 		>
+			<div class="flex-rw spc-btw music-player-container ff fw-600">
+				<div class="flex-rw start">
+					<img class="current-song-image" src="latest realeses/hardy sandu.jpg">
+					<div class="current-track-info flex-col start">
+						<div class="single-title">
+							Jee Karr Daa
+						</div>
+						<div class="current-song-singer-name">
+							HARDY SANDHU
+						</div>
+					</div>
+					<img class="current-song-like-icon" src="Images/heart.svg">
+					<img class="current-song-block-icon" src="Images/block.svg">
+				</div>
+
+				<div class="music-player-controls flex-col ">
+					<div class="music-player-buttons flex-rw center">
+						<img class="controls-icon" src="Images/random.svg">
+						<img class="controls-icon" src="Images/previous-music.svg">
+						<img class="play-pause-icon" src="Images/pause.svg">
+						<img class="controls-icon" src="Images/next-music.svg">
+						<img class="controls-icon" src="Images/repeat.svg">
+
+					</div>
+					<div class="music-bar flex-rw center">
+						<div class="bar-time">
+							0:39
+						</div>
+						<div class="slidecontainer">
+							<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+						</div>
+						<div class="bar-time">
+							3:44
+						</div>
+					</div>
+				</div>
+
+				<div class="music-player-volume flex-rw start">
+					<img class="controls-icon volume-icon" src="Images/sound.svg">
+					<div class="volume-slide-container">
+						<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+	</main>
+
+</body>
+
+</html>
